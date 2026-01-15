@@ -24,7 +24,7 @@ export const SignUp = () => {
 
     try {
       await axios.post(
-        "http://localhost:3000/api/auth/register",
+        "https://ag-next-intern.onrender.com/api/auth/register",
         { username, email, password }
       );
 
