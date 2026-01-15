@@ -38,7 +38,7 @@ export const Dashboard = () => {
           return
         }
 
-        const res = await axios.get('http://localhost:3000/api/task', {
+        const res = await axios.get('https://ag-next-intern.onrender.com/api/task', {
           headers: { Authorization: `${token}` },
         })
 //@ts-ignore
