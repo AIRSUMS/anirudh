@@ -11,7 +11,7 @@ export const MagicLink = () => {
     if (!email) return;
 
     try {
-      const res = await axios.post("http://localhost:3000/auth/signup", {
+      const res = await axios.post("https://ag-next-intern.onrender.com/auth/signup", {
         email,
       });
 
