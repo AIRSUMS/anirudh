@@ -26,7 +26,7 @@ export const AddPostModal = ({
     setLoading(true)
 
     const res = await axios.post(
-      'http://localhost:3000/api/task',
+      'https://ag-next-intern.onrender.com/api/task',
       {
         title,
         description,
